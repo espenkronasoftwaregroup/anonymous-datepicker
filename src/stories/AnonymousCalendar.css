@@ -1,0 +1,60 @@
+.calendar-container {
+    width: calc(64px * 7 + 2px);
+}
+
+.month-container {
+    color: grey;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid grey;
+}
+
+.calendar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.day.grid-column-1 {
+    grid-column: 1;
+}
+
+.day.grid-column-2 {
+    grid-column: 2;
+}
+
+.day.grid-column-3 {
+    grid-column: 3;
+}
+
+.day.grid-column-4 {
+    grid-column: 4;
+}
+
+.day.grid-column-5 {
+    grid-column: 5;
+}
+
+.day.grid-column-6 {
+    grid-column: 6;
+}
+
+.day.grid-column-7 {
+    grid-column: 7;
+}
+
+.selection-start {
+    background-color: blue;
+}
+
+.selection-end {
+    background-color: red;
+}
+
+.selection {
+    background-color: yellow;
+}
+
+.day {
+    cursor: pointer;
+}
